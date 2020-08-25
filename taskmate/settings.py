@@ -1,4 +1,5 @@
 
+import django-heroku
 import os
 import environ 
 
@@ -124,3 +125,6 @@ LOGIN_REDIRECT_URL = 'todolist'
 
 # redireccion cuando el usuario no esta logueado y solicita una URL
 LOGIN_URL = 'login'
+
+# variable de identificacion desde heroku
+django_heroku.settings(locals())

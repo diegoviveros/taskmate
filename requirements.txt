@@ -2,11 +2,13 @@ asgiref==3.2.10
 certifi==2020.6.20
 chardet==3.0.4
 colorama==0.4.3
+dj-database-url==0.5.0
 Django==3.1
 django-cors-headers==3.4.0
 django-crispy-forms==1.9.2
 django-environ==0.4.5
 django-filter==2.3.0
+django-heroku==0.3.1
 djangorestframework==3.11.0
 httpie==2.2.0
 idna==2.10
@@ -16,3 +18,4 @@ pytz==2020.1
 requests==2.24.0
 sqlparse==0.3.1
 urllib3==1.25.9
+whitenoise==5.2.0
